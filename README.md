@@ -20,3 +20,4 @@ const agent = new Ferrow.Agent({ cache: new LRUCache() });
 ```
 
 ## License: MIT
+## Examples
