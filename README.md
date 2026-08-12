@@ -1,4 +1,5 @@
 # cache-strategies
+![CI](https://github.com/FerrowAI/cache-strategies/actions/workflows/ci.yml/badge.svg)
 
 Three in-memory cache implementations for TypeScript/Node — `LRUCache`,
 `LFUCache`, `TTLCache` — sharing one `Cache<T>` interface, each tracking
