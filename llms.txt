@@ -1,0 +1,16 @@
+# cache-strategies
+> LRU, LFU, and TTL in-memory cache implementations sharing one interface, each tracking hits/misses/evictions. LRU correctly refreshes recency on get(). Zero runtime dependencies.
+
+Three in-memory cache implementations for TypeScript/Node — `LRUCache`, `LFUCache`, `TTLCache` — sharing one `Cache<T>` interface, each tracking hits/misses/evictions. Zero runtime dependencies, no Redis or other
+
+## API
+- `CacheStats`
+- `Cache`
+- `LRUCache`
+- `LFUCache`
+- `TTLCache`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
