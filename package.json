@@ -1,5 +1,5 @@
 {
-  "name": "cache-strategies",
+  "name": "@ferrow/cache-strategies",
   "version": "2.0.0",
   "description": "LRU, LFU, and TTL in-memory cache implementations sharing one interface, each tracking hits/misses/evictions. LRU correctly refreshes recency on get(). Zero runtime dependencies.",
   "main": "dist/index.js",

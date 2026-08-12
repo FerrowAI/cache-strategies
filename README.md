@@ -1,4 +1,8 @@
 # cache-strategies
+
+```sh
+npm install @ferrow/cache-strategies
+```
 ![CI](https://github.com/FerrowAI/cache-strategies/actions/workflows/ci.yml/badge.svg)
 
 Three in-memory cache implementations for TypeScript/Node — `LRUCache`,
