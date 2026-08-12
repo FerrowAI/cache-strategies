@@ -1,1 +1,21 @@
-{"name":"cache-strategies","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["ferrow"],"license":"MIT"}
+{
+  "name": "cache-strategies",
+  "version": "2.0.0",
+  "description": "LRU, LFU, and TTL in-memory cache implementations sharing one interface, each tracking hits/misses/evictions. LRU correctly refreshes recency on get(). Zero runtime dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node examples/demo.js"
+  },
+  "keywords": [
+    "cache",
+    "lru",
+    "lfu",
+    "ttl",
+    "typescript",
+    "in-memory"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT"
+}
